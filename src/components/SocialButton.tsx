@@ -15,7 +15,7 @@ export function SocialButton({ children, url }: ISocialProps) {
   return (
     <div
       onClick={() => openNewTab(url)}
-      className="w-14 h-14 flex items-center justify-center rounded-full text-black dark:text-white hover:bg-[#00000040] hover:dark:bg-[#ffffff40] transition-colors duration-200"
+      className="w-14 h-14 flex items-center justify-center rounded-full text-black dark:text-white hover:bg-[#00000040] hover:dark:bg-[#ffffff40] transition-colors duration-200 cursor-pointer"
     >
       {children}
     </div>
