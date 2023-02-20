@@ -5,11 +5,6 @@ export interface switchProps {
   setTheme: (theme : string) => void;
 }
 
-interface switchProviderProps {
-  children: ReactNode;
-  initialTheme: string;
-}
-
 const getInitialTheme = () => {
   if (typeof window !== "undefined" && window.localStorage) {
     const storedPrefs = window.localStorage.getItem("color-theme");
@@ -31,7 +26,7 @@ export const ThemeContext = createContext({} as switchProps);
 export function ThemeContextProvider({
   initialTheme,
   children,
-}: switchProviderProps) {
+}: any) {
   const [toggleTheme, setToggleTheme] = useState<boolean>(true);
   const [theme, setTheme] = useState(getInitialTheme);
 
