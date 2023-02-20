@@ -1,4 +1,4 @@
-<h1 align="center"> Portifolio digital </h1>
+<h1 align="center"> Portfólio digital </h1>
 
 <p align="center">
 Um químico que adora se aventurar pela tecnologia. <br/>
@@ -36,9 +36,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Esse projeto é um agregador de links para usar como cartão de visitas online.
+Esse projeto é um agregador de links para usar como um portfólio online, onde posso demonstrar apresentar meus trabalhos.
 
-- [Acesse o projeto finalizado, online](https://maycomwill.github.io/Linktree-like/)
+- [Acesse o projeto finalizado, online](https://maycomwill.vercel.app/)
 
 ## :pencil: Licença
 
