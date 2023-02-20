@@ -1,7 +1,7 @@
-<h1 align="center"> LinkTree Like </h1>
+<h1 align="center"> Portifolio digital </h1>
 
 <p align="center">
-Projeto desenvolvido para obter uma página estilo linktree. <br/>
+Um químico que adora se aventurar pela tecnologia. <br/>
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@ Projeto desenvolvido para obter uma página estilo linktree. <br/>
 <br>
 
 <p align="center">
-  <img alt="projeto DevLinks" src=".github/preview.jpg" width="100%">
+  <img alt="projeto DevLinks" src=".github/preview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -25,12 +25,13 @@ Projeto desenvolvido para obter uma página estilo linktree. <br/>
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 <p align="center">
-<img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=TypeScript&logoColor=white"/>
+<img src="https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=React&logoColor=333"/>
+<img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4.svg?style=for-the-badge&logo=Tailwind%20CSS&logoColor=white"/>
 <img src="https://img.shields.io/badge/GitHub-040507?style=for-the-badge&logo=github&logoColor=white"/>
 <img src="https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white"/>
 <img src="https://img.shields.io/badge/Figma-A259FF?style=for-the-badge&logo=figma&logoColor=white"/>
+<img src="https://img.shields.io/badge/VERCEL-000000.svg?style=for-the-badge&logo=vercel&logoColor=white"/>
 </p>
 
 ## 💻 Projeto

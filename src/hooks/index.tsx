@@ -6,7 +6,7 @@ interface AppProviderProps {
 }
 
 function AppProvider({ children }: AppProviderProps) {
-  return <ThemeContextProvider initialTheme="">{children}</ThemeContextProvider>;
+  return <ThemeContextProvider>{children}</ThemeContextProvider>;
 }
 
 export default AppProvider;
