@@ -10,8 +10,8 @@ function App() {
   const { theme, setTheme } = useTheme();
 
   return (
-    <div className="w-screen h-screen flex flex-col items-center justify-between bg-light dark:bg-dark md:bg-fullLight dark:md:bg-fullDark bg-cover">
-      <div className="flex flex-col gap-4 items-center justify-center w-full my-4 pt-4">
+    <div className="w-screen h-screen flex flex-col items-center justify-center gap-10 bg-light dark:bg-dark md:bg-fullLight dark:md:bg-fullDark bg-cover overflow-x-hidden">
+      <div className="flex flex-col gap-4 items-center justify-center w-full">
         <div className="h-24 w-24 ring-2 ring-gray-900 dark:ring-gray-100 rounded-full hover:scale-105 transition-scale duration-200">
           <img
             src="https://github.com/maycomwill.png"
@@ -44,7 +44,7 @@ function App() {
           />
           <Button title="Em Breve" url="/" disabled />
         </div>
-        <div className="flex w-full items-center justify-center gap-4 md:gap-8 py-8">
+        <div className="flex w-full items-center justify-center gap-4 md:gap-8 mt-4">
           <div>
             <SocialButton url="https://www.linkedin.com/in/maycom-willams-22b66716b/">
               <Linkedin />
