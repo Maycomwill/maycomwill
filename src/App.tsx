@@ -10,7 +10,7 @@ function App() {
   const { theme, setTheme } = useTheme();
 
   return (
-    <div className="w-screen h-screen flex flex-col items-center justify-center gap-14 bg-light dark:bg-dark md:bg-fullLight dark:md:bg-fullDark bg-cover overflow-x-hidden">
+    <div className="w-screen h-screen flex flex-col items-center justify-center gap-8 bg-light dark:bg-dark md:bg-fullLight dark:md:bg-fullDark bg-cover overflow-x-hidden pt-2">
       <div className="flex flex-col gap-4 items-center justify-center w-full">
         <div className="h-24 w-24 ring-2 ring-gray-900 dark:ring-gray-100 rounded-full hover:scale-105 transition-scale duration-200">
           <img
