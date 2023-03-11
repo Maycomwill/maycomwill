@@ -11,9 +11,11 @@ module.exports = {
         buttonHoverTransparenceWhite: 'rgba(255, 255, 255, 0.2)'
       },
       backgroundImage: {
-        dark: "url('/Darkmode_phone.jpg')",
-        light: "url('/Lightmode_phone.jpg')",
-        fullDark: "url('/DarkMode.jpg')",
+        // dark: "url('/Darkmode_phone.jpg')",
+        dark: "url('/DARK_bgcircles.svg')",
+        // light: "url('/Lightmode_phone.jpg')",
+        light: "url('/LIGHT_bgcircles.svg')",
+        fullDark: "url('/bg_dark.svg')",
         fullLight: "url('/LightMode.jpg')"
       }
     }

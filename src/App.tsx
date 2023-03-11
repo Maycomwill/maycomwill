@@ -1,16 +1,13 @@
-import { useEffect } from "react";
 import { Switch } from "./components/Switch";
-import { useTheme } from "./hooks/useTheme";
 import "./styles/main.css";
 import { Button } from "./components/Button";
 import { Twitter, Github, Linkedin, Instagram } from "lucide-react";
 import { SocialButton } from "./components/SocialButton";
 
 function App() {
-  const { theme, setTheme } = useTheme();
 
   return (
-    <div className="w-screen h-screen flex flex-col items-center justify-center gap-8 bg-light dark:bg-dark md:bg-fullLight dark:md:bg-fullDark bg-cover overflow-x-hidden pt-2">
+    <div className="w-screen h-screen flex flex-col items-center justify-center gap-8 bg-light dark:bg-dark bg-no-repeat bg-cover overflow-hidden pt-2">
       <div className="flex flex-col gap-4 items-center justify-center w-full">
         <div className="h-24 w-24 ring-2 ring-gray-900 dark:ring-gray-100 rounded-full hover:scale-105 transition-scale duration-200">
           <img
