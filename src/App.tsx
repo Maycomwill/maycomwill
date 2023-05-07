@@ -5,7 +5,6 @@ import { Twitter, Github, Linkedin, Instagram } from "lucide-react";
 import { SocialButton } from "./components/SocialButton";
 
 function App() {
-
   return (
     <div className="w-screen h-screen flex flex-col items-center justify-center gap-8 bg-light dark:bg-dark bg-no-repeat bg-cover overflow-hidden pt-2">
       <div className="flex flex-col gap-4 items-center justify-center w-full">
@@ -39,7 +38,7 @@ function App() {
             title="Pomodoro Timer"
             url="https://pomodoro-react-maycomwill.vercel.app/"
           />
-          <Button title="Em Breve" url="/" disabled />
+          <Button title="Today Currency" url="https://today-currency.vercel.app/" />
         </div>
         <div className="flex w-full items-center justify-center gap-4 md:gap-8 mt-4">
           <div>
@@ -65,7 +64,7 @@ function App() {
         </div>
       </div>
       <div className="mb-8 text-black dark:text-white transition-colors duration-200 text-xs">
-        Feito por Maycom Willams ®
+        Feito por Maycom Willams &reg;
       </div>
     </div>
   );
