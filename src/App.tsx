@@ -38,7 +38,7 @@ function App() {
             title="Pomodoro Timer"
             url="https://pomodoro-react-maycomwill.vercel.app/"
           />
-          <Button title="Today Currency" url="https://today-currency.vercel.app/" />
+          <Button title="Today Currency" url="https://todaycurrency.vercel.app/" />
         </div>
         <div className="flex w-full items-center justify-center gap-4 md:gap-8 mt-4">
           <div>
