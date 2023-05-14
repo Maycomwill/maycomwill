@@ -28,7 +28,7 @@ function App() {
         <div className="w-[70%] md:w-[40%] flex flex-col items-center justify-center gap-4 m-auto">
           <Button
             title="Caderneta Digital"
-            url="http://caderneta-digital.vercel.app/"
+            url="http://cadernetadigital.vercel.app/"
           />
           <Button
             title="Custom Pokedex"
