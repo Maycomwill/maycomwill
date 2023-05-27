@@ -7,7 +7,7 @@ import { SocialButton } from "./components/SocialButton";
 function App() {
   return (
     <div className="w-screen h-screen flex flex-col items-center justify-center gap-8 bg-light dark:bg-dark bg-no-repeat bg-cover overflow-hidden pt-2">
-      <div className="flex flex-col gap-4 items-center justify-center w-full">
+      <div className="flex flex-col gap-4 items-center justify-center w-full animate-initialDropdown">
         <div className="h-24 w-24 ring-2 ring-gray-900 dark:ring-gray-100 rounded-full hover:scale-105 transition-scale duration-200">
           <img
             src="https://github.com/maycomwill.png"
@@ -24,7 +24,7 @@ function App() {
           <Switch />
         </div>
       </div>
-      <div className="w-full flex flex-col gap-4">
+      <div className="w-full flex flex-col gap-4 animate-initialSurgeup animation-delay-1000">
         <div className="w-[70%] md:w-[40%] flex flex-col items-center justify-center gap-4 m-auto">
           <Button
             title="Caderneta Digital"
@@ -63,7 +63,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="mb-8 text-black dark:text-white transition-colors duration-200 text-xs">
+      <div className="mb-8 text-black dark:text-white text-xs delay-700 animate-initialSurgeup animation-delay-1000">
         Feito por Maycom Willams &reg;
       </div>
     </div>
