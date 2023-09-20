@@ -46,7 +46,7 @@ function App() {
         </div>
         <div className="flex w-full items-center justify-center gap-4 md:gap-8 mt-4">
           <div>
-            <SocialButton url="https://www.linkedin.com/in/maycom-willams-22b66716b/">
+            <SocialButton url="https://www.linkedin.com/in/maycomwill/">
               <Linkedin />
             </SocialButton>
           </div>
