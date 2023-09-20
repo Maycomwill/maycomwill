@@ -35,6 +35,10 @@ function App() {
             url="https://custom-pokedex.vercel.app/"
           />
           <Button
+            title="Border Radius Previewer"
+            url="https://borderradiuspreviewer.vercel.app/"
+          />
+          <Button
             title="Pomodoro Timer"
             url="https://pomodoro-react-maycomwill.vercel.app/"
           />
