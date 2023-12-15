@@ -1,40 +1,41 @@
+import { Link } from "react-router-dom";
 import Logo from "../assets/logo.svg";
 import { actualPage } from "../utils/actualPage";
 function Header() {
   return (
     <div className="flex h-14 w-full items-center justify-between px-4 pt-2 mb-4">
       <div className="flex items-center justify-center">
-        <a href="/">
+        <Link to="/">
           <img src={Logo} alt="Maycom's Logo" className="h-12 w-12" />
-        </a>
+        </Link>
       </div>
       <div className="flex gap-4 md:mr-4">
         {actualPage == "/about" ? (
-          <a href="/about" className="border-b-2 border-yellowGreen">
+          <Link to="/about" className="border-b-2 border-yellowGreen">
             Sobre
-          </a>
+          </Link>
         ) : (
-          <a href="/about" className="border-b-2 border-grayBg">
+          <Link to="/about" className="border-b-2 border-grayBg">
             Sobre
-          </a>
+          </Link>
         )}
         {actualPage == "/projects" ? (
-          <a href="/projects" className="border-b-2 border-yellowGreen">
+          <Link to="/projects" className="border-b-2 border-yellowGreen">
             Projetos
-          </a>
+          </Link>
         ) : (
-          <a href="/projects" className="border-b-2 border-grayBg">
+          <Link to="/projects" className="border-b-2 border-grayBg">
             Projetos
-          </a>
+          </Link>
         )}
         {actualPage == "/contact" ? (
-          <a href="/contact" className="border-b-2 border-yellowGreen">
+          <Link to="/contact" className="border-b-2 border-yellowGreen">
             Contato
-          </a>
+          </Link>
         ) : (
-          <a href="/contact" className="border-b-2 border-grayBg">
+          <Link to="/contact" className="border-b-2 border-grayBg">
             Contato
-          </a>
+          </Link>
         )}
       </div>
     </div>

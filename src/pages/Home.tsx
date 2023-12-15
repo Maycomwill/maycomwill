@@ -6,12 +6,11 @@ import Ts from "..//assets/ts.svg";
 import Node from "..//assets/node.svg";
 import ReactIcon from "..//assets/react.svg";
 import TecSVG from "../components/TecSVG";
-import { dimensions } from "../utils/screenwidth";
 
 export default function Home() {
   return (
     <div className="relative flex flex-1 flex-col items-center justify-between overflow-hidden px-2 md:px-24 md:pt-12">
-      <div className="z-10 flex flex-1 flex-col items-center justify-start gap-12 py-12 md:flex-row md:items-start md:justify-center">
+      <div className="z-10 flex flex-col items-center justify-start gap-12 py-12 md:flex-row md:items-start md:justify-center">
         <article className="flex flex-col items-baseline leading-8">
           <p className="flex flex-col text-4xl">
             Oi,
@@ -40,7 +39,7 @@ export default function Home() {
 
       <img
         src={Maycom}
-        className="bottom-1/2 top-1/2 w-72 md:w-96 absolute md:top-16 z-0 md:grayscale md:transition md:ease-in-out hover:grayscale-0"
+        className="bottom-1/2 top-1/2 w-72 md:w-96 absolute md:top-16 z-0 md:grayscale transition ease-in-out md:hover:grayscale-0"
         alt="Maycom's picture"
       />
     </div>
