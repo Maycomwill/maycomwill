@@ -1,3 +1,4 @@
+import Logo from "../assets/maycom1.png";
 import { Link } from "react-router-dom";
 
 function About() {
@@ -8,25 +9,30 @@ function About() {
           Sobre
         </h1>
       </div>
-      <div className="w-full text-justify space-y-6">
-        <p>
-          Formado em química pela UFRPE, sou um professor que tem o prazer de
-          ensinar
-        </p>
-        <p>
-          Atualmente, busco a transição de carreira para a área de tecnologia,
-          dessa forma curso técnico em desenvolvimento de sistemas na ETE Adv.
-          José David Gil Rodrigues.
-        </p>
-        <p>
-          Também realizei diversos cursos em HTML5, CSS3, JS e participei de
-          alguns bootcamps da Rocketseat, onde tive contato com o React,
-          Node.Js, onde desenvolvi boa parte dos meus{" "}
-          <a className="text-[#acf100] underline" href={"/projects"}>
-            projetos
-          </a>
-          .
-        </p>
+      <div className="flex flex-col md:flex-row">
+        <div className="w-full text-justify space-y-6 md:w-[50%]">
+          <p>
+            Formado em química pela UFRPE, sou um professor que tem o prazer de
+            ensinar
+          </p>
+          <p>
+            Atualmente, busco a transição de carreira para a área de tecnologia,
+            dessa forma curso técnico em desenvolvimento de sistemas na ETE Adv.
+            José David Gil Rodrigues.
+          </p>
+          <p>
+            Também realizei diversos cursos em HTML5, CSS3, JS e participei de
+            alguns bootcamps da Rocketseat, onde tive contato com o React,
+            Node.Js, onde desenvolvi boa parte dos meus{" "}
+            <a className="text-[#acf100]" href={"/projects"}>
+              projetos
+            </a>
+            .
+          </p>
+        </div>
+        <div className="w-[50%] hidden md:flex md:items-center md:justify-center">
+          <img src={Logo} alt="" className="w-96" />
+        </div>
       </div>
     </div>
   );

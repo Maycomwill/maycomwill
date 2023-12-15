@@ -10,11 +10,11 @@ export default function Contact() {
           Contato
         </h1>
       </div>
-      <div className=" w-full text-justify space-y-4">
+      <div className="w-full md:w-[50%] text-justify space-y-4">
         <span className="break-words">
           Entre em contato atraves das minhas redes sociais:
         </span>
-        <div className="flex w-full items-center justify-around">
+        <div className="flex w-full items-center justify-around md:justify-start md:gap-4">
           <a
             href="https://github.com/maycomwill"
             rel="noopener"

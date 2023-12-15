@@ -17,7 +17,7 @@ function Projects() {
   return (
     <div className="font-size-3xl h-screen flex w-full flex-col px-2">
       <div className="mb-4">
-        <h1 className="cursor-default font-alt text-4xl font-bold transition hover:text-[#acf100]">
+        <h1 className="cursor-default font-alt text-4xl font-bold transition hover:text-yellowGreen">
           Projects
         </h1>
       </div>
@@ -25,7 +25,7 @@ function Projects() {
         Aqui encontram-se alguns projetos meus que estão online e disponíveis
         para uso.
       </h1>
-      <div className="flex h-full px-2">
+      <div className="flex h-full px-2 md:px-0 pt-4 mb-10">
         <Slider>
           <div>
             <Project
