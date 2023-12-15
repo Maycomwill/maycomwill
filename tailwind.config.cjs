@@ -10,14 +10,16 @@ module.exports = {
         buttonTransparenceBlack: 'rgba(0, 0, 0, 0.01)',
         buttonHoverTransparenceBlack: 'rgba(0, 0, 0, 0.2)',
         buttonTransparenceWhite: 'rgba(255, 255, 255, 0.025)',
-        buttonHoverTransparenceWhite: 'rgba(255, 255, 255, 0.2)'
+        buttonHoverTransparenceWhite: 'rgba(255, 255, 255, 0.2)',
+        grayBg: '#242424',
+        yellowGreen: '#acf100'
       },
-      backgroundImage: {
-        dark: "url('/DARK_bgcircles.svg')",
-        light: "url('/LIGHT_bgcircles.svg')",
-        fullDark: "url('/bg_dark.svg')",
-        fullLight: "url('/LightMode.jpg')"
-      },
+      // backgroundImage: {
+      //   dark: "url('/DARK_bgcircles.svg')",
+      //   light: "url('/LIGHT_bgcircles.svg')",
+      //   fullDark: "url('/bg_dark.svg')",
+      //   fullLight: "url('/LightMode.jpg')"
+      // },
       animation: {
         initialDropdown: 'dropdown 1s ease-in-out',
         initialSurgeup: 'surgeup 1s ease-in-out backwards',
