@@ -1,3 +1,4 @@
+import { Switch } from "./components/Switch";
 import "./styles/main.css";
 import { AppRouter } from "./routes";
 
