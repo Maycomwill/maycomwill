@@ -1,6 +1,6 @@
-import React, { ReactNode } from "react";
+import { ReactNode } from "react";
 import AwesomeSlider from "react-awesome-slider";
-import "react-awesome-slider/dist/styles.css";
+import "../assets/slider-styles-copy.css";
 
 function Slider({ children }: { children: ReactNode }) {
   return (
