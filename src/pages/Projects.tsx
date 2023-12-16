@@ -25,7 +25,7 @@ function Projects() {
         Aqui encontram-se alguns projetos meus que estão online e disponíveis
         para uso.
       </h1>
-      <div className="flex h-full px-2 md:px-0 pt-4 mb-10">
+      <div className="h-full flex px-2 md:px-0 ">
         <Slider>
           <div>
             <Project
