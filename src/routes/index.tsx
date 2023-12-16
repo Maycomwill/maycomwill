@@ -5,8 +5,12 @@ import About from "../pages/About";
 import Contact from "../pages/Contact";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import { useTheme } from "../hooks/useTheme";
+import { useEffect } from "react";
 
 export function AppRouter() {
+  const {setTheme} = useTheme()
+  useEffect(()=>{setTheme("dark")},[])
   return (
     <BrowserRouter>
       <div className="flex h-screen flex-col text-gray-100">

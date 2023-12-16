@@ -61,7 +61,7 @@ const ghostVariants = cva("", {
   variants: {
     variant: {
       default:
-        "text-zinc-900 hover:bg-zinc-200 border-zinc-900 hover:text-[#acf100] dark:text-white dark:hover:bg-zinc-200 dark:border-white dark:hover:bg-white/20",
+        "text-zinc-900 border-zinc-900 hover:text-[#acf100] dark:text-white dark:hover:text-[#acf100] dark:hover:bg-zinc-200 dark:border-white dark:hover:bg-white/20",
       delete: "text-red-500 hover:bg-red-400/20 border-red-500",
       active:
         "text-zinc-900 hover:bg-zinc-200 border-zinc-900 hover:text-[#acf100] dark:text-[#acf100] dark:bg-white/20 dark:hover:bg-zinc-200 dark:border-white dark:hover:bg-white/20",

@@ -26,12 +26,12 @@ function Project({
             href={url}
             rel="noopener"
             target="_blank"
-            className=" flex items-center justify-center gap-2 hover:text-[#acf100]"
+            className=" flex items-center justify-center gap-2"
           >
             {logo ? (
               <img src={logo} alt="Logo" className="h-8 w-8" />
             ) : (
-              <Layers />
+              <Layers color="white" />
             )}
             <span>{title}</span>
           </a>
@@ -42,11 +42,7 @@ function Project({
       </div>
       <div className="flex items-center justify-center pt-4">
         {dimensions.width <= 500 ? (
-          <img
-            src={mobile_print}
-            alt={`${title} pricture`}
-            className="h-96"
-          />
+          <img src={mobile_print} alt={`${title} pricture`} className="h-96" />
         ) : (
           <img src={print} alt={`${title} pricture`} className="h-96" />
         )}

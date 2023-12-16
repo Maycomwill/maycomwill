@@ -18,7 +18,7 @@ function Projects() {
     <div className="font-size-3xl h-screen flex w-full flex-col px-2">
       <div className="mb-4">
         <h1 className="cursor-default font-alt text-4xl font-bold transition hover:text-yellowGreen">
-          Projects
+          Projetos
         </h1>
       </div>
       <h1 className="text-justify">
