@@ -15,7 +15,7 @@ function Header() {
     <div className="flex h-14 w-full items-center justify-between px-4 pt-2 mb-4">
       <div className="flex items-center justify-center">
         <Link to="/">
-          <img src={Logo} alt="Maycom's Logo" className="h-12 w-12" />
+          <img src={Logo} alt="Maycom's  Logo" className="h-12 w-12" />
         </Link>
       </div>
       <div className="flex gap-4 md:mr-4">
